@@ -1,0 +1,104 @@
+body
+{
+    background-image: url(RECURSOS/fondo13.jpg); background-size:100% 100%;
+}
+.b1
+{
+    width: 100%; height: 100px; z-index: 100px;position: relative; position: fixed;
+    text-align: center;margin-top: -130px; border: 0px solid salmon;    
+}
+.b1>.b2
+{
+    height: 100%; border: 0px solid red;position: relative;
+}
+
+
+.b1>.b2>a
+{
+    background-image: url(RECURSOS/fondo6.jpg);background-size: contain;
+    display: inline-block; padding: 40px 200px;border: 0px solid blue;   
+    margin: 5px; position: relative; display: inline-block; color: black;
+    font-family: fantasy;border-radius: 50px; 
+    
+}
+.b1>.b2>a:hover
+{
+    background-image: url(RECURSOS/fondo19.jpg); background-size: contain;
+    transform: translate(0px, -10px); transition: 0.4s;font-size: 25px; color: black;
+}
+@keyframes f1 
+{    
+    0%  {background-image: url(RECURSOS/fondo1.jpg);background-size:100% 100%; 
+        }
+    25% {background-image: url(RECURSOS/fondo2.jpg);background-size: 100% 100%;
+       }
+    50% {background-image: url(RECURSOS/fondo3.jpg);background-size: 100% 100%;
+        } 
+    75% {background-image: url(RECURSOS/fondo4.jpg);background-size: 100% 100%;
+        }
+    100% {background-image: url(RECURSOS/fondo5.jpg);background-size: 100% 100%;
+        }    
+    }
+
+    h1{
+        font-size: 100px; margin-top: -600px;margin-left: 530px; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    p{
+        font-size: 33px; margin-left: 625px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+.b3
+{
+    text-align: center;animation: f1 10s;animation-iteration-count: infinite;
+    margin: 150px 0px; border: 0px solid brown;width: 100%; height: 600px;
+    border-radius: 35px;
+}    
+
+div 
+{
+    margin-left: 350px;margin-right: 15px;margin-top: 250px;
+    width: 100px; height: 400px;
+}
+
+footer{
+    
+    background-image: url(RECURSOS/fondo11.jpg);background-size: contain;
+    width: 100%; height: 200px;
+    font-size: 25px;
+    margin-top: 5px;    
+}
+
+footer>.b4{
+    margin:5px;
+}
+footer>.b5{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/imagen1.jpg); background-size: contain;
+    display:inline-block; margin-left: 75px; border-radius: 50px;
+}
+footer>.b6{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/imagen2.jpg); background-size: contain;
+    display:inline-block;border-radius: 50px;
+}
+footer>.b7{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/imagen3.jpg); background-size: contain;
+    display:inline-block;border-radius: 50px;
+}
+footer>.b8{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/IMAGEN4.jpg); background-size: contain;
+    display:inline-block;border-radius: 50px;
+}
+footer>.b9{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/imagen5.jpg); background-size: contain;
+    display:inline-block;border-radius: 50px;
+}
+
+
+
+
+

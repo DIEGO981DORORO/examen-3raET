@@ -1,0 +1,135 @@
+@keyframes f1 {
+    
+    0%  {background-image: url(RECURSOS/cb1.jpg);background-size: 100% 100%;}
+    25% {background-image: url(RECURSOS/cb2.jpg);background-size: 100% 100%;}
+    50% {background-image: url(RECURSOS/cb3.jpg);background-size: 100% 100%;} 
+    75% {background-image: url(RECURSOS/cb4.jpg);background-size: 100% 100%;}
+    100% {background-image: url(RECURSOS/cb5.jpg);background-size: 100% 100%;}    
+    }
+@keyframes f2 {
+    
+     0%  {background-image: url(RECURSOS/ci.jpg);background-size: 100% 100%;}
+     25% {background-image: url(RECURSOS/ci1.jpg);background-size: 100% 100%;}
+    50% {background-image: url(RECURSOS/ci3.jpg);background-size: 100% 100%;}
+    75% {background-image: url(RECURSOS/cb4.jpg);background-size: 100% 100%;}
+    100% {background-image: url(RECURSOS/ci5.jpg);background-size: 100% 100%;}  
+}
+    
+        
+@keyframes f3 {
+    
+    0%  {background-image: url(RECURSOS/r1.jpg);background-size: 100% 100%;}
+     25% {background-image: url(RECURSOS/r2.jpg);background-size: 100% 100%;}
+    50% {background-image: url(RECURSOS/r3.jpg);background-size: 100% 100%;}
+    75% {background-image: url(RECURSOS/r4.jpg);background-size: 100% 100%;}
+    100% {background-image: url(RECURSOS/r5.jpg);background-size: 100% 100%;}     
+    }
+    body
+{
+    background-image: url(RECURSOS/fondo23.jpg);background-size:100% 100%;
+}
+.b1
+{
+    width: 100%; height: 100px;position: fixed;z-index: 100px;
+    text-align: center;margin-top: -170px; border: 0px solid salmon;    
+}
+.b1>.b2
+{
+    height: 100%; border: 0px solid red;
+}
+.b1>.b2>a
+{
+    background-image: url(RECURSOS/fondo17.jpg);background-size:contain;display:inline-block; 
+    padding: 40px 180px;border: 0px solid blue; border-radius: 50px;
+    font-family: fantasy; color: black;margin: 10px;
+}
+.b1>.b2>a:hover
+{
+    background-image: url(RECURSOS/fondo21.jpg);background-size:contain;transform: translate(0px, -10px);transition: 0.4s;
+    font-size: 25px;
+}
+.b3
+{
+    font-size: 45px;font-family: cursive;margin-top: 200px;
+    text-align: center;width: 100%; height: 65px;
+    border: 0   px solid red; color: black;
+}
+.b4{ 
+    
+    border: 0px solid black;width: 25%; height: 450px; margin-left: 6%;
+    display: inline-block; text-align: center;background-image: url(RECURSOS/fondob.jpg);
+    border-radius: 30px;background-size: 100% 100%;
+}
+.b4>h1{
+    margin-top: 50%;font-family: fantasy;
+}
+.b5{
+    border: 0px solid black;width: 25%; height: 450px;display: inline-block;
+    text-align: center; background-image: url(RECURSOS/fondoi.jpg);
+    background-size: 100% 100%;border-radius: 30px; 
+}
+.b5>h1{
+    margin-top: 50%;font-family: fantasy;
+}
+.b6{    
+    border: 0px solid black;width: 25%; height: 450px; display: inline-block;
+     text-align: center; background-image: url(RECURSOS/fondor.jpg);
+     background-size: 100% 100%;border-radius: 30px; 
+}
+.b6>h1{
+    margin-top: 50%;font-family: fantasy;
+}
+.b4:hover{   
+    transform: scale(1.1, 1.1);transition: 0.3s;
+    background-color: cyan;animation: f1 10s; animation-iteration-count: infinite;
+}
+.b5:hover{
+    transform: scale(1.1, 1.1);transition: 0.3s;
+    background-color: darkblue;animation: f2 10s; animation-iteration-count: infinite;
+}
+.b6:hover{
+    transform: scale(1.1, 1.1);transition: 0.3s;
+    background-color: darkcyan;animation: f3 10s; animation-iteration-count: infinite;   
+}
+footer{
+    border: 0px solid rebeccapurple;font-size: 25px;
+    background-image: url(RECURSOS/fondo25.jpg);background-size: contain; margin-top: 10px; text-align: center;
+    height: 180px;
+}
+footer>p{
+    margin: 20px; font-family: sans-serif;
+}
+footer>.b7{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/p1.jpg); background-size: 100% 100%;
+    display:inline-block; border-radius: 50px; margin: 10px;
+}
+footer>.b8{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/p2.jpg); background-size: 100% 100%;
+    display:inline-block;border-radius: 50px;margin:  10px;
+}
+footer>.b9{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/p3.jpg); background-size: 100% 100%;
+    display:inline-block;border-radius: 50px; margin: 10px;
+}
+footer>.b10{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/p4.jpg); background-size:100% 100%;
+    display:inline-block;border-radius: 50px;margin: 10px;
+}
+footer>.b11{
+    border: 0px solid red;width: 200px; height: 100px;
+    background-image: url(RECURSOS/p5.jpg); background-size:100% 100%;
+    display:inline-block;border-radius: 50px;margin: 10px;
+}
+
+
+
+
+
+
+
+
+
